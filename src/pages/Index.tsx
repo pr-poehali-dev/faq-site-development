@@ -152,6 +152,9 @@ const Index = () => {
                   </AccordionTrigger>
                   <AccordionContent className="text-muted-foreground text-base leading-relaxed pb-6 pl-14">
                     {item.answer}
+                    <div className="mt-4 pt-4 border-t border-border/50">
+                      <p className="text-sm text-primary/70 font-medium">{item.subtext}</p>
+                    </div>
                   </AccordionContent>
                 </AccordionItem>
               ))}
