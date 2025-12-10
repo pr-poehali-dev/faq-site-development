@@ -138,10 +138,7 @@ const Index = () => {
             
             <div className="flex flex-wrap gap-4 justify-center mb-12">
               <Button size="lg" className="gradient-primary text-white font-semibold px-8 py-6 text-lg hover:scale-105 transition-transform">Ничего сложного</Button>
-              <Button size="lg" variant="outline" className="border-2 px-8 py-6 text-lg hover:scale-105 transition-transform">
-                <Icon name="Play" className="mr-2" size={24} />
-                Как это работает
-              </Button>
+              <Button size="lg" variant="outline" className="border-2 px-8 py-6 text-lg hover:scale-105 transition-transform">С VCTR</Button>
             </div>
           </div>
         </section>
